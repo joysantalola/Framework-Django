@@ -5,7 +5,7 @@
 
 Aquesta aplicació web permet gestionar animes i personatges, amb un **CRUD complet** (Crear, Llegir, Actualitzar, Eliminar). S'utilitza el **framework Django** per crear l'aplicació, amb una base de dades SQLite i una relació entre els animes i els seus personatges.
 
-![Anime app example](URL_DE_LA_TUYA_CAPTURA_ANIME)  <!-- Afegir captura de l'app amb llista d'animes -->
+![Anime app example](/img/anime.png) 
 
 ## Funcionalitats
 
