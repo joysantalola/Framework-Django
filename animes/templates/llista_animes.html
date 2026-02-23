@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Llista d'Animes</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+<h1>Llista d'Animes</h1>
+
+<a class="btn" href="{% url 'afegir_anime' %}">Afegir Anime</a>
+<a class="btn" href="{% url 'afegir_personatge' %}">Afegir Personatge</a>
+<ul>
+{% for anime in animes %}
+    <li>
+        <strong>{{ anime.titol }}</strong> - {{ anime.autor }} ({{ anime.any }})
+
+        <h4>Personatges:</h4>
+        <ul>
+            {% for p in anime.personatges.all %}
+                <li>{{ p.nom }}</li>
+            {% empty %}
+                <li>No hi ha personatges</li>
+            {% endfor %}
+        </ul>
+
+        <a class="edit" href="{% url 'editar_anime' anime.pk %}">Editar</a>
+        <a class="delete" href="{% url 'eliminar_anime' anime.pk %}">Eliminar</a>
+    </li>
+{% endfor %}
+</ul>
+
+</body>
+</html>
