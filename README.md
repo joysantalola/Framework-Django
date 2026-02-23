@@ -1,4 +1,4 @@
-````markdown
+
 # **Django CRUD Animes**
 
 ## Descripció
