@@ -1,5 +1,5 @@
 
-# **Django CRUD Animes**
+# **Django CRUD Animes de Oleguer**
 
 ## Descripció
 
