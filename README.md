@@ -69,7 +69,7 @@ http://127.0.0.1:8000/
 
 1. Ves a `http://127.0.0.1:8000/admin/`.
 
-   ![Admin Panel Example](URL_DE_LA_TUYA_CAPTURA_ADMIN)  <!-- Afegir captura de l'admin -->
+   ![Admin Panel Example](/img/admin.png)
 
 2. Fes login amb el superusuari creat.
 
@@ -77,12 +77,4 @@ http://127.0.0.1:8000/
 
 Captura del formulari per afegir un anime i els personatges dins de l'admin.
 
-![Afegir Anime i Personatge](URL_DE_LA_TUYA_CAPTURA_FORMULARI)  <!-- Afegir captura dels formularis d'afegir Anime i Personatge -->
-
-## Imatges
-
-### Exemple de llista d'animes amb personatges vinculats:
-
-![Exemple llista Anime amb Personatges](URL_DE_LA_TUYA_CAPTURA_LLISTA_ANIMES)  <!-- Afegir captura de la llista d'animes amb personatges -->
-
----
+![Afegir Anime i Personatge](/img/canvi.png)
